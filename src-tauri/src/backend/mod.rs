@@ -1,0 +1,10 @@
+pub mod app_icons;
+pub mod config;
+pub mod default_folder_browser;
+pub mod event_log;
+pub mod file_history;
+pub mod fs_ops;
+pub mod image_thumbnails;
+pub mod open_with;
+pub mod tree;
+pub mod watcher;

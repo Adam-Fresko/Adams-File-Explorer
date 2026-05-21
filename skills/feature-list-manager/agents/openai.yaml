@@ -1,0 +1,4 @@
+interface:
+  display_name: "Adams Feature List Manager"
+  short_description: "Build and maintain the main feature doc"
+  default_prompt: "Use $feature-list-manager to create or update this project's main feature doc, preferring repo-specific paths like docs/FEATURES.md when defined."

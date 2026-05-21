@@ -1,0 +1,17 @@
+{
+  "name": "adams_file_explorer",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --dir ui dev",
+    "build": "pnpm --dir ui build",
+    "tauri": "tauri",
+    "setup:macos-default-explorer": "./scripts/setup-macos-default-explorer.sh",
+    "reset:macos-default-explorer": "./scripts/reset-macos-default-explorer.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.11.1"
+  }
+}
